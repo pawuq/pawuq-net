@@ -12,3 +12,53 @@ body, html {
     top: 0;
     left: 0;
 }
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* ---- */
+
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* ---- */
+
+.logo {
+    font-size: xxx-large;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+
+/* github section */
+
+.github-section {
+    display: flex;
+    width: 12em;
+    flex-direction: column;
+    align-items: center;
+}
+.github-section>hr {
+    width: 100%;
+}
+.github-section>a {
+    font-size: x-large;
+}
+
+/* ---- */
+
+.project {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin: 1em auto;
+}
+.project>img {
+    width: 2em;
+    height: auto;
+}
+.project>div {
+    font-size: large;
+}
